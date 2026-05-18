@@ -1,0 +1,9 @@
+{
+  "name": "datinggame",
+  "private": true,
+  "packageManager": "pnpm@10",
+  "scripts": {
+    "dev:mobile": "pnpm --filter mobile start",
+    "dev:backend": "pnpm --filter backend start:dev"
+  }
+}
